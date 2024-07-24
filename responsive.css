@@ -1,0 +1,116 @@
+@media (max-width: 1045px) {
+    .menu-desktop, .main-button {
+        display: none;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .main-button-1 {
+        display: none;
+    }
+
+    .button-open-menu {
+        display: block;
+    }
+
+    .main-content .img-topo-site img {
+        width: 100%;
+    }
+
+    section.main-content .flex {
+        gap: 40px;
+    }
+
+    section.main-content {
+        padding: 100px 8%;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+    .nav-auto, .nav-manual {
+        margin-top: 49%;
+        margin-left: 28%;
+        width: 100px;
+        display: none;
+    }
+
+    .main-button-2 {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    section.idiomas {
+        padding: 40px 8%;
+        margin-top: 3px;
+    }
+
+    h1.title-idiomas {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    section.english-kids {
+        padding: 80px 8%;
+        background-image: url(./assets/background-kids-mob.jpg);
+        background-size: cover;
+    }
+
+    section.english-kids .flex {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .text-kids h1 {
+        font-size: 34px;
+        line-height: 35px;
+        margin-top: 85px;
+        text-align: center;
+    }
+
+    .text-kids p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .img-kids1 img {
+        width: 100%;
+        margin-bottom: 140px;
+    }
+
+    .localization .contact-info {
+        flex-direction: column-reverse;
+    }
+
+    section.localization .flex {
+        gap: 60px;
+    }
+
+    h1.title-localization {
+        font-size: 29px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .contact-info .localization-info, .img-private img {
+        width: 85vw;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+}
